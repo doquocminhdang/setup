@@ -1,3 +1,4 @@
 #!/usr/bin/bash
-
+ 
 TZ=GMT-7 date > /home/fetel/date
+echo " +7" > /home/fetel/date
