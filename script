@@ -1,6 +1,7 @@
 #!/usr/bin/bash
  
 TZ=GMT-7 date > /home/fetel/date
-mkdir -p /home/fetel/lab /home/fetel/lec
+mkdir -p /home/fetel/lab /home/fetel/lec /home/fetel/book
 cp /opt/setup/lab*.pdf /home/fetel/lab
 cp /opt/setup/lec*.pdf /home/fetel/lec
+cp /opt/setup/book*.pdf /home/fetel/book
