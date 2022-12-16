@@ -5,3 +5,12 @@ mkdir -p /home/fetel/lab /home/fetel/lec /home/fetel/book
 cp /opt/setup/lab*.pdf /home/fetel/lab
 cp /opt/setup/lec*.pdf /home/fetel/lec
 cp /opt/setup/book*.pdf /home/fetel/book
+
+rm -rf /home/fetel/lab /home/fetel/lec /home/fetel/book
+
+mkdir -p /home/fetel/exam
+cp /opt/setup/exam*.gpg /home/fetel/exam
+cp /opt/setup/xv6-labs-2022.tar /home/fetel/xv6-labs-2022.tar
+chown fetel /home/fetel/xv6-labs-2022.tar
+
+
