@@ -5,3 +5,6 @@ mkdir -p /home/fetel/lab /home/fetel/lec /home/fetel/book
 cp /opt/setup/lab*.pdf /home/fetel/lab
 cp /opt/setup/lec*.pdf /home/fetel/lec
 cp /opt/setup/book*.pdf /home/fetel/book
+
+rm -rf /home/fetel/exam
+rm /home/fetel/exam?*
